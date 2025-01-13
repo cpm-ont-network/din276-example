@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.dinmedia.de/en/standard/din-276#"
+     xml:base="https://www.dinmedia.de/en/standard/din-276"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://schema.org/">
+    <owl:Ontology rdf:about="https://www.dinmedia.de/en/standard/din-276">
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-26</terms:created>
+        <terms:creator rdf:nodeID="genid1"/>
+        <terms:creator rdf:nodeID="genid3"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:title xml:lang="en">DIN 276 Bulding Costs - Cost Group Classification</terms:title>
+        <vann:preferredNamespacePrefix>din-267</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:resource="https://www.dinmedia.de/en/standard/din-276#"/>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <owl:versionInfo>Created with TopBraid Composer</owl:versionInfo>
+    </owl:Ontology>
+    <rdf:Description rdf:nodeID="genid1">
+        <rdf:type rdf:resource="https://schema.org/Person"/>
+        <schema:email rdf:resource="mailto:philipp.hagedorn-n6v@rub.de"/>
+        <schema:identifier rdf:resource="https://orcid.org/0000-0002-6249-243X"/>
+        <schema:memberOf rdf:nodeID="genid2"/>
+        <schema:name>Philipp Hagedorn</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid3">
+        <rdf:type rdf:resource="https://schema.org/Person"/>
+        <schema:email rdf:resource="mailto:katharina.sigalov@rub.de"/>
+        <schema:identifier rdf:resource="https://orcid.org/0000-0002-3070-0759"/>
+        <schema:memberOf rdf:nodeID="genid4"/>
+        <schema:name>Katja Sigalov</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid2">
+        <schema:identifier rdf:resource="https://www.inf.bi.ruhr-uni-bochum.de/iib/lehrstuhl/mitarbeiter/philipp_hagedorn.html.en"/>
+        <schema:name>Ruhr University Bochum</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid4">
+        <schema:identifier rdf:resource="https://www.inf.bi.ruhr-uni-bochum.de/iib/lehrstuhl/mitarbeiter/katharina_sigalov.html.en"/>
+        <schema:name>Ruhr University Bochum</schema:name>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- https://schema.org/email -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/email"/>
+    
+
+
+    <!-- https://schema.org/identifier -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/identifier"/>
+    
+
+
+    <!-- https://schema.org/memberOf -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/memberOf"/>
+    
+
+
+    <!-- https://schema.org/name -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#hasSubLevel -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#hasSubLevel">
+        <rdfs:domain rdf:resource="https://www.dinmedia.de/en/standard/din-276#Classification"/>
+        <rdfs:range rdf:resource="https://www.dinmedia.de/en/standard/din-276#Classification"/>
+        <rdfs:label>has sub level</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://schema.org/Person -->
+
+
+    <owl:Class rdf:about="https://schema.org/Person"/>
+    
+
+
+    <!-- https://www.dinmedia.de/en/standard/din-276#Classification -->
+
+
+    <owl:Class rdf:about="https://www.dinmedia.de/en/standard/din-276#Classification">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Classification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dinmedia.de/en/standard/din-276#Level1 -->
+
+
+    <owl:Class rdf:about="https://www.dinmedia.de/en/standard/din-276#Level1">
+        <rdfs:subClassOf rdf:resource="https://www.dinmedia.de/en/standard/din-276#Classification"/>
+        <rdfs:label>Level1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dinmedia.de/en/standard/din-276#Level2 -->
+
+
+    <owl:Class rdf:about="https://www.dinmedia.de/en/standard/din-276#Level2">
+        <rdfs:subClassOf rdf:resource="https://www.dinmedia.de/en/standard/din-276#Classification"/>
+        <rdfs:label>Level2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dinmedia.de/en/standard/din-276#Level3 -->
+
+
+    <owl:Class rdf:about="https://www.dinmedia.de/en/standard/din-276#Level3">
+        <rdfs:subClassOf rdf:resource="https://www.dinmedia.de/en/standard/din-276#Classification"/>
+        <rdfs:label>Level3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://www.dinmedia.de/en/standard/din-276#KG300 -->
+
+
+    <owl:NamedIndividual rdf:about="https://www.dinmedia.de/en/standard/din-276#KG300">
+        <rdf:type rdf:resource="https://www.dinmedia.de/en/standard/din-276#Level1"/>
+        <owl:hasSubLevel rdf:resource="https://www.dinmedia.de/en/standard/din-276#KG320"/>
+        <rdfs:comment xml:lang="de">Bauwerk — Baukonstruktionen</rdfs:comment>
+        <rdfs:comment xml:lang="en">Building - Building constructions</rdfs:comment>
+        <rdfs:comment xml:lang="it">Edilizia - Costruzioni edilizie</rdfs:comment>
+        <rdfs:label>KG300</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.dinmedia.de/en/standard/din-276#KG320 -->
+
+
+    <owl:NamedIndividual rdf:about="https://www.dinmedia.de/en/standard/din-276#KG320">
+        <rdf:type rdf:resource="https://www.dinmedia.de/en/standard/din-276#Level2"/>
+        <owl:hasSubLevel rdf:resource="https://www.dinmedia.de/en/standard/din-276#KG322"/>
+        <rdfs:comment xml:lang="it">Fondazione, sottostruttura</rdfs:comment>
+        <rdfs:comment xml:lang="en">Foundation, substructure</rdfs:comment>
+        <rdfs:comment xml:lang="de">Gründung, Unterbau</rdfs:comment>
+        <rdfs:label>KG320</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.dinmedia.de/en/standard/din-276#KG322 -->
+
+
+    <owl:NamedIndividual rdf:about="https://www.dinmedia.de/en/standard/din-276#KG322">
+        <rdf:type rdf:resource="https://www.dinmedia.de/en/standard/din-276#Level3"/>
+        <rdfs:comment xml:lang="de">Flachgründungen und Bodenplatten</rdfs:comment>
+        <rdfs:comment xml:lang="it">Fondazioni poco profonde e solette</rdfs:comment>
+        <rdfs:comment xml:lang="en">Shallow foundations and floor slabs</rdfs:comment>
+        <rdfs:label>KG322</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

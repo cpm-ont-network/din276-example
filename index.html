@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="resources/primer.css" media="screen"/>
+<link rel="stylesheet" href="resources/rec.css" media="screen"/>
+<link rel="stylesheet" href="resources/extra.css" media="screen"/>
+<link rel="stylesheet" href="resources/owl.css" media="screen"/>
+<link rel="stylesheet" href="resources/dark.css" media="(prefers-color-scheme: dark)"/>
+<link rel="stylesheet" href="resources/light.css" media="(prefers-color-scheme: light)"/>
+<link rel="stylesheet" href="resources/slider.css" media="screen"/>
+<meta name="color-scheme" content="dark light">
+<script type="module" src="resources/dark-mode-toggle.mjs"></script><div class="darkmode">
+	<dark-mode-toggle class="slider"></dark-mode-toggle>
+</div>
+ <title>DIN 276 Bulding Costs - Cost Group Classification</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://www.dinmedia.de/en/standard/din-276#","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://www.dinmedia.de/en/standard/din-276#","name":"DIN 276 Bulding Costs - Cost Group Classification", "headline":"Document describing the ontology https://www.dinmedia.de/en/standard/din-276#", "dateReleased":"2024-11-26", "version":"Created with TopBraid Composer", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Philipp Hagedorn"},{"@type":"Person","name":"Katja Sigalov"}]}</script>
+
+<script src="resources/jquery.js"></script> 
+<script src="resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked.parse(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+$(function(){
+    loadHash();
+}); $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-de.html"><b>de</b></a> <a href="index-en.html"><b>en</b></a> <a href="index-it.html"><b>it</b></a> </div>
+<h1>DIN 276 Bulding Costs - Cost Group Classification</h1>
+<h2>Release: 2024-11-26</h2>
+
+
+<dl>
+<dt>Latest version:</dt>
+<dd><a href="https://www.dinmedia.de/en/standard/din-276#">https://www.dinmedia.de/en/standard/din-276#</a></dd>
+<dt>Revision:</dt>
+<dd>Created with TopBraid Composer</dd>
+<dt>Authors:</dt>
+<dd>Philipp Hagedorn<a href="mailto:philipp.hagedorn-n6v@rub.de">&#9993;</a></dd><dd>Katja Sigalov<a href="mailto:katharina.sigalov@rub.de">&#9993;</a></dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://img.shields.io/badge/License-https://creativecommons.org/licenses/by/4.0/-blue.svg" alt="https://creativecommons.org/licenses/by/4.0/" /></a>
+</dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
+<!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dd>Philipp Hagedorn, Katja Sigalov. DIN 276 Bulding Costs - Cost Group Classification. Revision: Created with TopBraid Composer.</dd>
+</dl>
+
+<hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div><div id="toc"></div>  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h2 id="overv" class="list">DIN 276 Bulding Costs - Cost Group Classification: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Classes</h4>
+<ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#Classification"
+         title="https://www.dinmedia.de/en/standard/din-276#Classification">Classification</a>
+   </li>
+   <li>
+      <a href="#Level1"
+         title="https://www.dinmedia.de/en/standard/din-276#Level1">Level1</a>
+   </li>
+   <li>
+      <a href="#Level2"
+         title="https://www.dinmedia.de/en/standard/din-276#Level2">Level2</a>
+   </li>
+   <li>
+      <a href="#Level3"
+         title="https://www.dinmedia.de/en/standard/din-276#Level3">Level3</a>
+   </li>
+</ul><h4>Object Properties</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#http://www.w3.org/2002/07/owl#hasSubLevel" title="http://www.w3.org/2002/07/owl#hasSubLevel">has sub level</a>
+   </li>
+</ul><h4>Named Individuals</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#KG300"
+         title="https://www.dinmedia.de/en/standard/din-276#KG300">KG300</a>
+   </li>
+   <li>
+      <a href="#KG320"
+         title="https://www.dinmedia.de/en/standard/din-276#KG320">KG320</a>
+   </li>
+   <li>
+      <a href="#KG322"
+         title="https://www.dinmedia.de/en/standard/din-276#KG322">KG322</a>
+   </li>
+</ul><iframe src="webvowl/index.html"></iframe> 
+</div>
+  
+
+<!--DESCRIPTION SECTION-->
+    <div id="description"><h2 id="desc" class="list">DIN 276 Bulding Costs - Cost Group Classification: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+
+<span class="markdown">This is a placeholder text for the description of your ontology. The description should include an explanation and a diagram explaining how the classes are related, examples of usage, etc.
+
+</span></div>
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross-reference for DIN 276 Bulding Costs - Cost Group Classification classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by DIN 276 Bulding Costs - Cost Group Classification.
+<div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="classes">
+ <h3 id="classes-headline" class="list">Classes</h3>
+ <ul class="hlist">
+  <li><a href="#Classification" title="https://www.dinmedia.de/en/standard/din-276#Classification">Classification</a></li>
+  <li><a href="#Level1" title="https://www.dinmedia.de/en/standard/din-276#Level1">Level1</a></li>
+  <li><a href="#Level2" title="https://www.dinmedia.de/en/standard/din-276#Level2">Level2</a></li>
+  <li><a href="#Level3" title="https://www.dinmedia.de/en/standard/din-276#Level3">Level3</a></li>
+ </ul>
+ <div class="entity" id="Classification">
+  <h3>Classification<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://www.dinmedia.de/en/standard/din-276#Classification</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#Thing" target="_blank" title="http://www.w3.org/2002/07/owl#Thing">Thing</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has sub-classes
+   </dt>
+   <dd>
+    <a href="#Level1" title="https://www.dinmedia.de/en/standard/din-276#Level1">Level1</a> <sup class="type-c" title="class">c</sup>, <a href="#Level2" title="https://www.dinmedia.de/en/standard/din-276#Level2">Level2</a> <sup class="type-c" title="class">c</sup>, <a href="#Level3" title="https://www.dinmedia.de/en/standard/din-276#Level3">Level3</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is in domain of
+   </dt>
+   <dd>
+    <a href="#http://www.w3.org/2002/07/owl#hasSubLevel" title="http://www.w3.org/2002/07/owl#hasSubLevel">has sub level</a> <sup class="type-op" title="object property">op</sup>
+   </dd>
+   <dt>
+    is in range of
+   </dt>
+   <dd>
+    <a href="#http://www.w3.org/2002/07/owl#hasSubLevel" title="http://www.w3.org/2002/07/owl#hasSubLevel">has sub level</a> <sup class="type-op" title="object property">op</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="Level1">
+  <h3>Level1<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://www.dinmedia.de/en/standard/din-276#Level1</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#Classification" title="https://www.dinmedia.de/en/standard/din-276#Classification">Classification</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has members
+   </dt>
+   <dd>
+    <a href="#KG300" title="https://www.dinmedia.de/en/standard/din-276#KG300">KG300</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="Level2">
+  <h3>Level2<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://www.dinmedia.de/en/standard/din-276#Level2</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#Classification" title="https://www.dinmedia.de/en/standard/din-276#Classification">Classification</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has members
+   </dt>
+   <dd>
+    <a href="#KG320" title="https://www.dinmedia.de/en/standard/din-276#KG320">KG320</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="Level3">
+  <h3>Level3<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://www.dinmedia.de/en/standard/din-276#Level3</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#Classification" title="https://www.dinmedia.de/en/standard/din-276#Classification">Classification</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has members
+   </dt>
+   <dd>
+    <a href="#KG322" title="https://www.dinmedia.de/en/standard/din-276#KG322">KG322</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="objectproperties">
+ <h3 id="properties" class="list">Object Properties</h3>
+ <ul class="hlist">
+  <li><a href="#http://www.w3.org/2002/07/owl#hasSubLevel" title="http://www.w3.org/2002/07/owl#hasSubLevel">has sub level</a></li>
+ </ul>
+ <div class="entity" id="http://www.w3.org/2002/07/owl#hasSubLevel">
+  <h3>has sub level<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://www.w3.org/2002/07/owl#hasSubLevel</p>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#Classification" title="https://www.dinmedia.de/en/standard/din-276#Classification">Classification</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="#Classification" title="https://www.dinmedia.de/en/standard/din-276#Classification">Classification</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
+ <h3 id="namedindividuals" class="list">Named Individuals</h3>
+ <ul class="hlist">
+  <li><a href="#KG300" title="https://www.dinmedia.de/en/standard/din-276#KG300">KG300</a></li>
+  <li><a href="#KG320" title="https://www.dinmedia.de/en/standard/din-276#KG320">KG320</a></li>
+  <li><a href="#KG322" title="https://www.dinmedia.de/en/standard/din-276#KG322">KG322</a></li>
+ </ul>
+ <div class="entity" id="KG300">
+  <h3>KG300<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://www.dinmedia.de/en/standard/din-276#KG300</p>
+  <div class="comment">
+   <span class="markdown">Building - Building constructions</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#Level1" title="https://www.dinmedia.de/en/standard/din-276#Level1">Level1</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="#http://www.w3.org/2002/07/owl#hasSubLevel" title="http://www.w3.org/2002/07/owl#hasSubLevel">has sub level</a> <sup class="type-op" title="object property">op</sup> <a href="#KG320" title="https://www.dinmedia.de/en/standard/din-276#KG320">KG320</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="KG320">
+  <h3>KG320<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://www.dinmedia.de/en/standard/din-276#KG320</p>
+  <div class="comment">
+   <span class="markdown">Foundation, substructure</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#Level2" title="https://www.dinmedia.de/en/standard/din-276#Level2">Level2</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="#http://www.w3.org/2002/07/owl#hasSubLevel" title="http://www.w3.org/2002/07/owl#hasSubLevel">has sub level</a> <sup class="type-op" title="object property">op</sup> <a href="#KG322" title="https://www.dinmedia.de/en/standard/din-276#KG322">KG322</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="KG322">
+  <h3>KG322<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://www.dinmedia.de/en/standard/din-276#KG322</p>
+  <div class="comment">
+   <span class="markdown">Shallow foundations and floor slabs</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#Level3" title="https://www.dinmedia.de/en/standard/din-276#Level3">Level3</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals <br/>
+</div>
+</div>
+</div>
+<div id="acknowledgments">
+<h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>

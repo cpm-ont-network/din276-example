@@ -1,0 +1,158 @@
+<https://www.dinmedia.de/en/standard/din-276> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://www.dinmedia.de/en/standard/din-276> <http://purl.org/dc/terms/created> "2024-11-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://www.dinmedia.de/en/standard/din-276> <http://purl.org/dc/terms/creator> _:genid1 .
+_:genid1 <https://schema.org/name> "Philipp Hagedorn" .
+_:genid1 <https://schema.org/memberOf> _:genid2 .
+_:genid2 <https://schema.org/name> "Ruhr University Bochum" .
+_:genid2 <https://schema.org/identifier> <https://www.inf.bi.ruhr-uni-bochum.de/iib/lehrstuhl/mitarbeiter/philipp_hagedorn.html.en> .
+_:genid1 <https://schema.org/identifier> <https://orcid.org/0000-0002-6249-243X> .
+_:genid1 <https://schema.org/email> <mailto:philipp.hagedorn-n6v@rub.de> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
+<https://schema.org/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.dinmedia.de/en/standard/din-276> <http://purl.org/dc/terms/creator> _:genid3 .
+_:genid3 <https://schema.org/name> "Katja Sigalov" .
+_:genid3 <https://schema.org/memberOf> _:genid4 .
+_:genid4 <https://schema.org/name> "Ruhr University Bochum" .
+_:genid4 <https://schema.org/identifier> <https://www.inf.bi.ruhr-uni-bochum.de/iib/lehrstuhl/mitarbeiter/katharina_sigalov.html.en> .
+_:genid3 <https://schema.org/identifier> <https://orcid.org/0000-0002-3070-0759> .
+_:genid3 <https://schema.org/email> <mailto:katharina.sigalov@rub.de> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
+<https://www.dinmedia.de/en/standard/din-276> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://www.dinmedia.de/en/standard/din-276> <http://purl.org/dc/terms/title> "DIN 276 Bulding Costs - Cost Group Classification"@en .
+<https://www.dinmedia.de/en/standard/din-276> <http://purl.org/vocab/vann/preferredNamespacePrefix> "din-267" .
+<https://www.dinmedia.de/en/standard/din-276> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://www.dinmedia.de/en/standard/din-276#> .
+<https://www.dinmedia.de/en/standard/din-276> <http://www.w3.org/2002/07/owl#versionInfo> "1.0" .
+<https://www.dinmedia.de/en/standard/din-276> <http://www.w3.org/2002/07/owl#versionInfo> "Created with TopBraid Composer" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/email
+<https://schema.org/email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/identifier
+<https://schema.org/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/memberOf
+<https://schema.org/memberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/name
+<https://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2002/07/owl#hasSubLevel
+<http://www.w3.org/2002/07/owl#hasSubLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2002/07/owl#hasSubLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.dinmedia.de/en/standard/din-276#Classification> .
+<http://www.w3.org/2002/07/owl#hasSubLevel> <http://www.w3.org/2000/01/rdf-schema#range> <https://www.dinmedia.de/en/standard/din-276#Classification> .
+<http://www.w3.org/2002/07/owl#hasSubLevel> <http://www.w3.org/2000/01/rdf-schema#label> "has sub level" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://schema.org/Person
+# 
+# https://www.dinmedia.de/en/standard/din-276#Classification
+<https://www.dinmedia.de/en/standard/din-276#Classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.dinmedia.de/en/standard/din-276#Classification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://www.dinmedia.de/en/standard/din-276#Classification> <http://www.w3.org/2000/01/rdf-schema#label> "Classification" .
+# 
+# https://www.dinmedia.de/en/standard/din-276#Level1
+<https://www.dinmedia.de/en/standard/din-276#Level1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.dinmedia.de/en/standard/din-276#Level1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.dinmedia.de/en/standard/din-276#Classification> .
+<https://www.dinmedia.de/en/standard/din-276#Level1> <http://www.w3.org/2000/01/rdf-schema#label> "Level1" .
+# 
+# https://www.dinmedia.de/en/standard/din-276#Level2
+<https://www.dinmedia.de/en/standard/din-276#Level2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.dinmedia.de/en/standard/din-276#Level2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.dinmedia.de/en/standard/din-276#Classification> .
+<https://www.dinmedia.de/en/standard/din-276#Level2> <http://www.w3.org/2000/01/rdf-schema#label> "Level2" .
+# 
+# https://www.dinmedia.de/en/standard/din-276#Level3
+<https://www.dinmedia.de/en/standard/din-276#Level3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.dinmedia.de/en/standard/din-276#Level3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.dinmedia.de/en/standard/din-276#Classification> .
+<https://www.dinmedia.de/en/standard/din-276#Level3> <http://www.w3.org/2000/01/rdf-schema#label> "Level3" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://www.dinmedia.de/en/standard/din-276#KG300
+<https://www.dinmedia.de/en/standard/din-276#KG300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.dinmedia.de/en/standard/din-276#KG300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.dinmedia.de/en/standard/din-276#Level1> .
+<https://www.dinmedia.de/en/standard/din-276#KG300> <http://www.w3.org/2002/07/owl#hasSubLevel> <https://www.dinmedia.de/en/standard/din-276#KG320> .
+<https://www.dinmedia.de/en/standard/din-276#KG300> <http://www.w3.org/2000/01/rdf-schema#comment> "Bauwerk — Baukonstruktionen"@de .
+<https://www.dinmedia.de/en/standard/din-276#KG300> <http://www.w3.org/2000/01/rdf-schema#comment> "Building - Building constructions"@en .
+<https://www.dinmedia.de/en/standard/din-276#KG300> <http://www.w3.org/2000/01/rdf-schema#comment> "Edilizia - Costruzioni edilizie"@it .
+<https://www.dinmedia.de/en/standard/din-276#KG300> <http://www.w3.org/2000/01/rdf-schema#label> "KG300" .
+# 
+# https://www.dinmedia.de/en/standard/din-276#KG320
+<https://www.dinmedia.de/en/standard/din-276#KG320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.dinmedia.de/en/standard/din-276#KG320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.dinmedia.de/en/standard/din-276#Level2> .
+<https://www.dinmedia.de/en/standard/din-276#KG320> <http://www.w3.org/2002/07/owl#hasSubLevel> <https://www.dinmedia.de/en/standard/din-276#KG322> .
+<https://www.dinmedia.de/en/standard/din-276#KG320> <http://www.w3.org/2000/01/rdf-schema#comment> "Fondazione, sottostruttura"@it .
+<https://www.dinmedia.de/en/standard/din-276#KG320> <http://www.w3.org/2000/01/rdf-schema#comment> "Foundation, substructure"@en .
+<https://www.dinmedia.de/en/standard/din-276#KG320> <http://www.w3.org/2000/01/rdf-schema#comment> "Gründung, Unterbau"@de .
+<https://www.dinmedia.de/en/standard/din-276#KG320> <http://www.w3.org/2000/01/rdf-schema#label> "KG320" .
+# 
+# https://www.dinmedia.de/en/standard/din-276#KG322
+<https://www.dinmedia.de/en/standard/din-276#KG322> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.dinmedia.de/en/standard/din-276#KG322> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.dinmedia.de/en/standard/din-276#Level3> .
+<https://www.dinmedia.de/en/standard/din-276#KG322> <http://www.w3.org/2000/01/rdf-schema#comment> "Flachgründungen und Bodenplatten"@de .
+<https://www.dinmedia.de/en/standard/din-276#KG322> <http://www.w3.org/2000/01/rdf-schema#comment> "Fondazioni poco profonde e solette"@it .
+<https://www.dinmedia.de/en/standard/din-276#KG322> <http://www.w3.org/2000/01/rdf-schema#comment> "Shallow foundations and floor slabs"@en .
+<https://www.dinmedia.de/en/standard/din-276#KG322> <http://www.w3.org/2000/01/rdf-schema#label> "KG322" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

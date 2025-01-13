@@ -1,0 +1,213 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "de", "en", "it", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "https://schema.org", "http://www.w3.org/2001/XMLSchema", "https://www.dinmedia.de/en/standard/din-276" ],
+    "title" : {
+      "en" : "DIN 276 Bulding Costs - Cost Group Classification"
+    },
+    "iri" : "https://www.dinmedia.de/en/standard/din-276",
+    "version" : "Created with TopBraid Composer",
+    "author" : [ "_:genid2147483689", "_:genid2147483688" ],
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "_:genid2147483688",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "_:genid2147483689",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2024-11-26",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "din-267",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "Created with TopBraid Composer",
+        "type" : "label"
+      }, {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://www.dinmedia.de/en/standard/din-276#",
+        "type" : "iri"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "DIN 276 Bulding Costs - Cost Group Classification",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://www.dinmedia.de/en/standard/din-276#Level1",
+    "baseIri" : "https://www.dinmedia.de/en/standard/din-276",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Level1",
+      "undefined" : "Level1"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.dinmedia.de/en/standard/din-276#KG300",
+      "baseIri" : "https://www.dinmedia.de/en/standard/din-276",
+      "comment" : {
+        "de" : "Bauwerk — Baukonstruktionen",
+        "en" : "Building - Building constructions",
+        "it" : "Edilizia - Costruzioni edilizie"
+      },
+      "labels" : {
+        "IRI-based" : "KG300",
+        "undefined" : "KG300"
+      }
+    } ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://www.dinmedia.de/en/standard/din-276#Level2",
+    "baseIri" : "https://www.dinmedia.de/en/standard/din-276",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Level2",
+      "undefined" : "Level2"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.dinmedia.de/en/standard/din-276#KG320",
+      "baseIri" : "https://www.dinmedia.de/en/standard/din-276",
+      "comment" : {
+        "de" : "Gründung, Unterbau",
+        "en" : "Foundation, substructure",
+        "it" : "Fondazione, sottostruttura"
+      },
+      "labels" : {
+        "IRI-based" : "KG320",
+        "undefined" : "KG320"
+      }
+    } ],
+    "id" : "2",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://www.dinmedia.de/en/standard/din-276#Level3",
+    "baseIri" : "https://www.dinmedia.de/en/standard/din-276",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Level3",
+      "undefined" : "Level3"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.dinmedia.de/en/standard/din-276#KG322",
+      "baseIri" : "https://www.dinmedia.de/en/standard/din-276",
+      "comment" : {
+        "de" : "Flachgründungen und Bodenplatten",
+        "en" : "Shallow foundations and floor slabs",
+        "it" : "Fondazioni poco profonde e solette"
+      },
+      "labels" : {
+        "IRI-based" : "KG322",
+        "undefined" : "KG322"
+      }
+    } ],
+    "id" : "3",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://www.dinmedia.de/en/standard/din-276#Classification",
+    "baseIri" : "https://www.dinmedia.de/en/standard/din-276",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Classification",
+      "undefined" : "Classification"
+    },
+    "subClasses" : [ "0", "2", "3" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://schema.org/Person",
+    "baseIri" : "https://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6"
+  } ],
+  "property" : [ {
+    "id" : "4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "1",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#hasSubLevel",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasSubLevel",
+      "undefined" : "has sub level"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "5"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "7"
+  }, {
+    "range" : "1",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "8"
+  } ]
+}
